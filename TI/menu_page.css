@@ -1,0 +1,14 @@
+#body  { width:800px; border:solid 2px #0033FF; }
+#header { width:798px; height: 50px; border:solid 1px red; text-align:center;  }
+#header p { font-size:25px; }
+#menu { height : 500px; width:150px; border:solid 1px red; float:left;  }
+#menu p { padding:5px; margin:0px }
+#content { border:solid 1px red; float:left; height : 500px; width:646px;  }
+#content img { float:right }
+/*
+#content h1 { color:navy; font-size:12pt; text-align:center }
+#content h2 { color:green; font-size:12pt; text-align:center}
+#content p.italic { font-style:italic }
+*/
+#footer { border:solid 1px red; clear:both; text-align:center; color:blue }
+iframe { width: 100%; height: 620px; }

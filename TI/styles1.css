@@ -1,0 +1,28 @@
+
+body
+{
+    background-color: bisque
+}
+
+table,th,td
+{
+    border: 1px solid blue
+}
+
+thead
+{
+    background-color: aqua; text-align: center
+}
+
+tbody
+{
+    color: red;
+    background-color: beige; text-align: center
+}
+
+tfoot
+{
+    background-color: bisque; font-weight: bolder; font-style: oblique
+}
+
+
