@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="UTF-8"/>
+      <title>Ciag Fibonacciego - info</title>
+      <script src="../JS/pascal.js" type="text/javascript"></script>
+      <link rel="stylesheet" href = "../CSS/pascal.css">
+   </head>
+   <body>
+       <h1>Co mają wspólnego trójkąt Pascala i ciąg Fibonacciego?</h1>
+       <p>Trójkąt Pascala to ciąg liczb ułożony w trójkąt o określonych własnościach matematycznych. </br>
+         Tworzenie trójkąta Pascala zaczynamy od góry. W pierwszym wierszu wstawiamy 1, w następnym – dwie jedynki, </br>
+         we wszystkich kolejnych wierszach jedynki umieszczamy na początku i na końcu każdego wiersza. </br>
+         Zaś w środku wierszy wpisujemy sumy dwóch liczb sąsiadujących z góry.</br></br>
+
+         Tworząc odpowiednie linie łączące elementy trójkąta i sumując je ze sobą otrzymujemy zaś ciąg Fibonacciego!
+        </p></br></br>
+       <h2>Trójkąt Pascala</h2>
+       </br>
+
+
+        <form action="#" onsubmit="return pascal()">
+          Podaj liczbę: <input id="rozmiar" type="text" name="rozmiar"></br></br>
+          <input id="test" type="submit" value="Pokaż trójkąt"></br>
+       </form>
+       </br>
+        <button id="col" onClick="col_button()">Pokaż zależność</button></br>
+    </br>
+    <a href = "../index.html" class="Button">Strona główna</a>
+</br>
+       <div id="Rysuj">
+        <canvas id="triangle" width="2000" height="1000"></canvas>
+       </div>
+    </body>
+</html>

@@ -1,0 +1,131 @@
+body
+{
+    background-image: url("./blackboard.jpg");
+    background-size: cover;
+    color: ivory;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:center;
+
+    
+}
+
+a:link
+{
+    color: whitesmoke;
+}
+
+a:visited
+{
+    color: rgb(255, 246, 198);
+}
+
+body > h1
+{
+
+    border: 1px solid;
+    border-radius: 12px; 
+    border-color: rgb(255, 255, 255);
+
+    font-family:'Courier New';
+    
+    text-align:center;
+    font-size: 45px;
+
+}
+
+body > source
+{
+    font-style: italic;
+}
+
+body > a.button1{
+    display: inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.52em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Courier New',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    }
+a.button1:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+    @media all and (max-width:30em){
+     a.button1{
+    display:block;
+    margin:0.4em auto;
+    }
+    } 
+
+body > p.footer
+{
+    /* // text-rendering: optimizeSpeed;  */
+    color: whitesmoke;
+    display: flexbox;
+    /* // clear: both; */
+    position: relative;
+    /* height: 200px; */
+    margin-top: 550px;
+}
+
+
+input
+{
+    display: inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.52em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Courier New',sans-serif;
+    font-weight:300;
+    color:black;
+    text-align:center;
+    transition: all 0.2s;
+}
+input:hover{
+    color: magenta;
+    background-color:#FFFFFF;
+}
+    @media all and (max-width:30em){
+     input{
+    display:block;
+    margin:0.4em auto;
+    }
+    }
+
+body > button
+{
+    display: inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.52em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Courier New',sans-serif;
+    font-weight:300;
+    color:black;
+    text-align:center;
+    transition: all 0.2s;
+}
+button:hover{
+    color: magenta;
+    background-color:#FFFFFF;
+}
+    @media all and (max-width:30em){
+     button{
+    display:block;
+    margin:0.4em auto;
+    }
+    }
+
+
+

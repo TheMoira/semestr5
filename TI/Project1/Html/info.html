@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="UTF-8"/>
+      <title>Ciag Fibonacciego - info</title>
+      <script src="../JS/info.js" type="text/javascript"></script>
+      <link rel="stylesheet" href = "../CSS/info.css">
+   </head>
+   <body>
+       <h1>Kilka słów wprowadzenia o ciągu Fibonacciego</h1>
+       <p>W tym ciągu liczb naturalnych pierwsze dwa wyrazy ciągu są równe 1 a każdy następny wyraz (zwany liczbą Fibonacciego) powstaje jako suma dwóch poprzednich. </br>
+        Jeżeli podzielimy przez siebie dowolne, kolejne dwa wyrazy ciągu Fibonacciego, np. 987 : 610; 89 : 55 to stosunek tych liczb będzie równy zawsze tej samej liczbie, </br>równej w przybliżeniu 1.618. Im większe wyrazy ciągu podzielimy, tym dokładniejsze przybliżenie tej liczby uzyskamy. </br>Liczbę tę nazywa się "złotą liczbą" i oznacza grecką literą φ (czyt. "fi"). 
+       </br>Stosunek tego podziału określa się również mianem "złotego podziału" lub "Boskiej proporcji". Warto również wspomnieć o spirali Fibonacciego, </br>szczególnym przypadku tzw. złotej spirali, której szerokość zwiększa się (lub zmniejsza) o 90° dokładnie φ razy (czyli o "złotą liczbę"). 
+       </p>
+      </br>
+       <p class="source">Źródło: www.interia.pl</p><br/><br/>
+      <br/>
+       <h2>Zobacz ciąg Fibonacciego</h2>
+       
+        <form action="#" onsubmit="return wybor_liczby()">
+          Podaj liczbę wyrazow ciagu: <input id="liczba" type="text" name="liczba"><br/><br/>
+          <input id="show_chart" type="checkbox">Pokaż wykres<br/><br/>
+          <input type="submit" value="Pokaż ciąg"><br/>
+       </form>
+    </br>
+    <a href="../index.html" class="button1">Strona główna</a>
+</br></br>
+       <div id="Wypis">
+        <canvas id="chart" width="1800" height="700"></canvas>
+       </div>
+    </body>
+</html>

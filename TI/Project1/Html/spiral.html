@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="UTF-8"/>
+      <title>Ciag Fibonacciego - info</title>
+      <script src="../JS/spiral.js" type="text/javascript"></script>
+      <link rel="stylesheet" href = "../CSS/spiral.css">
+   </head>
+   <body>
+       <h1>Spirala i złota proporcja</h1>
+       <!-- <p>Bla Bla Bla</p><br/> -->
+       <h2>Zobacz spiralę Fibonacciego</h2>
+       <br/>
+
+
+        <form action="#" onsubmit="return spiral_data()">
+          Wybierz liczbę wyrazow ciagu: <input id="rozmiar" type="range" min="3" max="16" name="rozmiar" onchange="updateTextInput(this.value);">
+          <output id="textInput" value=""></output></br>
+          <p>Wybierz kolor przewodni:</p>
+          <input class="col" id="col1" type="radio" name="col" value="white" checked> biały<br>
+            <input class="col" id="col2" type="radio" name="col" value="red"> czerwony<br>
+            <input class="col" id="col3" type="radio" name="col" value="green"> zielony<br>
+            <input class="col" id="col4" type="radio" name="col" value="blue"> niebieski<br>
+            <input class="col" id="col5" type="radio" name="col" value="gradient"> gradient<br>
+            <br/>
+          <input id="pola" type="checkbox" name="pola"> Pola kwadratów<br/><br/>
+          <input type="submit" value="Rysuj" class="Button">
+       </form>
+       <br/>
+
+    </br>
+    <a href = "../index.html" class="Button">Strona główna</a>
+</br>
+       <div id="Rysuj">
+        <canvas id="spiral" width="1800" height="900"></canvas>
+       </div>
+    </body>
+</html>
