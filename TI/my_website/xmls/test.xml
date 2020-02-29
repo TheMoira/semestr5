@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="my_page_xml.css"?>
+
+
+
+<my_page>
+	<test xmlns:xlink="http://www.w3.org/1999/xlink">
+
+	<break>***</break>
+
+	<head>Maria Korkuć</head>
+
+	<par_title>Zadania z laboratorium</par_title>
+
+
+	<table>
+		<zadanie>
+			<H>Techniki internetowe</H>
+			<type>HTML</type>
+			<linki xlink:type="extended" xlink:href="../htmls/cwiczenie1.html" xlink:show="replace">Zadanie 1</linki>
+			<linki xlink:type="simple" xlink:href="../htmls/cwiczenie2.html">
+				Zadanie 2</linki>
+			<linki xlink:type="simple" xlink:href="../htmls/cwiczenie3.html">
+				Zadanie 3</linki>
+			<linki xlink:type="simple" xlink:href="../htmls/cwiczenie4.html">
+				Zadanie 4</linki>
+			<linki xlink:type="simple" xlink:href="../htmls/cwiczenie5.html">
+				Zadanie 5</linki>
+		</zadanie>
+		<zadanie>
+			<H>Strona w IBMcloud</H>
+			<linki xlink:type="simple" xlink:href="https://7korkuctilab03.eu-gb.mybluemix.net/">Przejdź do strony</linki>
+		</zadanie>
+
+		<zadanie>
+			<H>Bazy danych</H>
+			<type>Początek</type>
+			<linki xlink:type="simple" xlink:href="../htmls/bazy_fund.html">
+				Zadanie 1</linki>
+		</zadanie>
+	</table>
+
+	</test>
+</my_page>

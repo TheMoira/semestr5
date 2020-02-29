@@ -1,0 +1,95 @@
+my_page
+{
+    background-image: url("../books2.png");
+    background-size: cover;
+    color: ivory;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:center;
+    padding: 35px;
+    
+}
+
+break
+{
+    display: block;
+}
+
+par_title
+{
+    display: block;
+    padding: 35px;
+}
+
+xlink:link
+{
+    color: whitesmoke;
+}
+
+xlink:visited
+{
+    color: rosybrown;
+}
+
+head
+{
+    display:block;
+    border: 1px solid;
+    border-radius: 12px; 
+    border-color: white;
+    
+    text-align:center;
+    font-size: 45px;
+
+}
+
+table
+{
+    display: table;
+    position: relative;
+    table-layout: unset;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+zadanie
+{
+    display: table-cell;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ddd;
+    border-collapse: separate;
+    padding: 25px;
+}
+
+H
+{
+    display: table-header;
+    text-align: center;
+    font-weight: bold;
+}
+
+type
+{
+    display: table-row;
+    text-align: center;
+}
+
+
+
+linki
+{
+    display: list-item;
+    text-align: center;
+
+}
+
+
+dodatkowe
+{
+    display: block;
+    padding: 35px;
+}
