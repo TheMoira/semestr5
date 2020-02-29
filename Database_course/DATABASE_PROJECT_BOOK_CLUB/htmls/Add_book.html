@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href = "../CSS/style2.css">
+  <title>Dodaj książkę</title>
+  </head>
+  <body>
+     <h1>Dodaj książkę</h1>
+     <form name="test" method="post" action="../phps/Add_book.php">
+        Tytuł książki:     <input type="text" name="title" required><br/>
+        Imię i nazwisko autora:     <input type="text" name="author" required><br/>
+        Nazwa serii (niewymagane):     <input type="text" name="series"><br/>
+        Ocena:    <input type="range" min="0" max="5" name="eval" required><br/></br>
+        Język:    <input type="text" name="language" required><br/>
+        Wydawnictwo:    <input type="text" name="editorial" required><br/>
+        Rok wydania:    <input type="date" name="year" required><br/>
+        Rodzaj: 
+        <select name="genre">
+         <option value="fantasy">Fantasy</option>
+         <option value="scifi">Science Fiction</option>
+         <option value="report">Reportaż</option>
+         <option value="romance">Romans</option>
+         <option value="novel">Obyczajowa</option>
+         <option value="crime">Kryminał</option>
+         <option value="drama">Dramat</option>
+         <option value="horror">Horror/thiller</option>
+         <option value="classic">Klasyka</option>
+         <option value="textbook">Podręcznik</option>
+         <option value="other">Inny</option>
+       </select></br>
+        <input type="checkbox" name="used"> Używana<br/>
+        <input type="checkbox" name="hardcover"> Twarda okładka<br/>
+        Na sprzedaż  <input type="radio" name="trans" value="sell" checked></br>
+        Do wymiany   <input type="radio" name="trans" value="exchange"> </br>
+        Cena (jeśli nie wpiszesz ceny automatycznie</br> 
+        zostanie uznana na książkę do wymiany) [PLN]: <input type="text" name="price"></br>
+        Opis (niewymagane):   <input type="text" name="description"></br>
+        <input type="submit">
+     </form>   </br></br>
+     <a href="../phps/main_page.php" class="button1">Strona główna</a>
+  </body>
+</html>

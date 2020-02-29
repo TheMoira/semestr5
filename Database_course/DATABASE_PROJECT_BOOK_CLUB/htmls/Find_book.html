@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+
+  <link rel="stylesheet" href = "../CSS/style2.css">
+
+    <script type='text/javascript'>
+      function addField(elem){
+          var choice = elem.value;
+          var container = document.getElementById("container");
+          while (container.hasChildNodes()) {
+              container.removeChild(container.lastChild);
+          }
+          var input = document.createElement("input");
+          input.type = "text";
+          input.name = "data";
+          container.appendChild(input);
+      }
+  </script>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Znajdź książkę</title>
+  </head>
+  <body>
+    <h1>Wyszukiwarka książek</h1>
+    <p>Znajdź wymarzoną książkę!</p></br>
+    <form name="test" method="post" action="../phps/Find_book.php">
+        <select id="showtime" name="showtime" ONCHANGE="addField(this)">
+          <option value="all">Zobacz wszystkie książki</option>
+          <option value="title">Znajdź po tytule</option>
+          <option value="author">Znajdź po autorze</option>
+          <option value="genre">Znajdź po gatunku</option>
+          <option value="price">Znajdź po cenie</option>
+          <option value="exchange">Zainspiruj się - wymiana</option>
+          <option value="random">Szczęśliwy traf!</option>
+        </select></br></br>
+        <div id="container"></div>
+        <input type="submit">
+    </form>   
+  </br></br>
+  <a href="../phps/main_page.php" class="button1">Strona główna</a>
+  </body>
+</html>
