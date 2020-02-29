@@ -1,0 +1,18 @@
+var canvas = document.getElementById("e");
+var ctx = canvas.getContext("2d");
+//START
+
+var canvasWidth = 500;
+
+var x_from = 90;
+
+var step = Math.round(canvasWidth / inputData.length);
+
+for (var i = 0; i < inputData.length - 1; i++) 
+{
+var x_next = x_from + (i * step) - 20;
+var color1 = 150 + i*20;
+var color2 = 50 + i*40;
+ctx.fillStyle = "rgba(" + color2 + "," + color1 + ", 250, 1)";
+ctx.fillRect(x_next, 150, 40, -inputData[i]*10);
+}
