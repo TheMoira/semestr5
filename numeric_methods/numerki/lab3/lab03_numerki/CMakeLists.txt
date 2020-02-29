@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.6)
+project(lab03)
+include_directories(include)
+set(SOURCES main.cpp)
+add_executable(LAB4 ${SOURCES})
+add_compile_options(-Wall -g)

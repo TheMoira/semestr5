@@ -1,0 +1,3 @@
+/home/stud2017/7korkuc/Desktop/semestr5/numerki/lab4/numerki4/CMakeFiles/rebuild_cache.dir
+/home/stud2017/7korkuc/Desktop/semestr5/numerki/lab4/numerki4/CMakeFiles/main.dir
+/home/stud2017/7korkuc/Desktop/semestr5/numerki/lab4/numerki4/CMakeFiles/edit_cache.dir
